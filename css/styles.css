@@ -1,0 +1,399 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+.header {
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    border-radius: 0 0 25px 25px;
+    width: 100%;
+    height: 100vh;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_apple {
+    height: 5rem;
+    width: 4.6rem;
+    margin-left: 3.2rem;
+    margin-top: 3.2rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ABC6D6;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 7.4rem;
+}
+
+li {
+    color: #abc6d6;
+    font-size: 1.8rem;
+}
+
+.side_bar {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    width: 26.7rem;
+    background-color: white;
+    align-items: center;
+
+}
+
+.sidebar {
+    display: none;
+}
+
+.logo_cart {
+    height: 2.4rem;
+    width: 8.8rem;
+    margin-top: 4rem;
+    margin-right: 3.4rem;
+}
+
+.heading {
+    height: 15.3rem;
+    width: 34rem;
+    font-size: 32px;
+    line-height: 51px;
+    margin-left: 3.7rem;
+    margin-top: 6rem;
+    color: white;
+}
+
+.heading .bold {
+    font-weight: 700;
+}
+
+.heading .regular {
+    font-weight: 400;
+}
+
+.btn {
+    font-size: 1.8rem;
+    color: white;
+    border: 3px solid white;
+    border-radius: 100px;
+    width: 15rem;
+    height: 5.8rem;
+    margin-top: 3.5rem;
+    background: inherit;
+    cursor: pointer;
+}
+
+.images {
+    display: flex;
+    padding-top: 12rem;
+}
+
+.watch {
+    height: 25rem;
+    width: 31.2rem;
+    margin-top: 6rem;
+    margin-left: 3.7rem;
+}
+
+.selector {
+    width: 3rem;
+    height: 16.2rem;
+    margin-right: 3.5rem;
+    margin-top: 9.2rem;
+}
+
+.ellipse1 {
+    display: flex;
+}
+
+.ellipse_1 {
+    width: 19.7rem;
+    height: 2.5rem;
+    margin-left: 9.3rem;
+}
+
+.ellipse_2 {
+    display: flex;
+    width: 19.2rem;
+    height: 5rem;
+    margin-left: 9.4rem;
+}
+
+.bottom {
+    height: 8rem;
+    border-radius: 0 0 25px 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.toggler {
+    width: 3rem;
+    height: 2rem;
+    margin-left: 3.3rem;
+    margin-top: 2.5rem;
+}
+
+.social {
+    width: 11.7rem;
+    height: 3rem;
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.watches_bottom {
+    display: none;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .main {
+        background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+        margin: auto;
+    }
+
+    .heading {
+        font-size: 48px;
+        height: 20rem;
+        width: 50rem;
+        line-height: 68px;
+        margin: 6rem auto 0 auto;
+    }
+
+    .navbar {
+        height: 100vh;
+        width: 40rem;
+    }
+
+    .button {
+        width: 100%;
+
+    }
+
+    .btn {
+        font-size: 2.1rem;
+        width: 20rem;
+        height: 6.4rem;
+    }
+
+    .images {
+        justify-content: center;
+    }
+
+    .watch {
+        height: 30rem;
+        width: 35rem;
+    }
+
+    .selector {
+        height: 20rem;
+        width: 4rem;
+    }
+
+    .ellipse_1 {
+        display: none;
+    }
+
+    .ellipse_2 {
+        margin: 0rem;
+
+    }
+
+    .ellipse2 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .watches_bottom {
+        display: none;
+    }
+
+    .overall {
+        background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    }
+
+
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .logo_apple {
+        margin-top: 4.6rem;
+        margin-left: 16.7rem;
+    }
+
+    /* .main {
+        height: 100vh;
+        border-radius: 0;
+        background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    } */
+
+
+    .navbar {
+        width: 100%;
+        height: 8rem;
+        background: none;
+    }
+
+
+    ul {
+
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 8rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li {
+
+        margin-top: 6.1rem;
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+    }
+
+    a {
+        width: 100%;
+        color: white;
+    }
+
+    a:hover {
+        color: #ABC6D6;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 100px;
+        padding: 5px 32px 4px 32px;
+        transition: .4s;
+    }
+
+    .logo_cart {
+        margin-top: 6.1rem;
+    }
+
+    .overall {
+        background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    }
+
+    .heading {
+        width: 68rem;
+        height: 25.8rem;
+        line-height: 8.6rem;
+        font-size: 6.4rem;
+        margin-left: 16.2rem;
+        margin-top: 17.5rem;
+    }
+
+    .main_component {
+        display: flex;
+        margin: auto;
+        max-width: 1400px;
+    }
+
+    .btn {
+        width: 25rem;
+        height: 7rem;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+        margin-top: 8.2rem;
+    }
+
+    .hero_images .images .watch {
+        width: 40rem;
+        height: 38rem;
+    }
+
+    .selector {
+        width: 4rem;
+        height: 20rem;
+    }
+
+    .watches_bottom {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2.7rem;
+        margin-top: 9.4rem;
+
+    }
+
+    .watch2,
+    .watch3,
+    .watch4 {
+        height: 13.1rem;
+        width: 13.1rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .ellipse_2 {
+        width: 30.9rem;
+        height: 5rem;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+
+    .sidebar {
+        background-color: white;
+        display: flex;
+        width: 100px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .side_bar {
+        display: flex;
+        position: absolute;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .social_vertical {
+        height: 13.2rem;
+        width: 2.8rem;
+        margin-left: 3.7rem;
+    }
+
+}
