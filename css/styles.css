@@ -22,6 +22,7 @@ img {
 }
 
 .main_component {
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -118,7 +119,7 @@ li {
 
 .images {
     display: flex;
-    padding-top: 12rem;
+    margin-top: 12rem;
 }
 
 .watch {
@@ -196,7 +197,6 @@ li {
         height: 20rem;
         width: 50rem;
         line-height: 68px;
-        margin: 6rem auto 0 auto;
     }
 
     .navbar {
@@ -263,12 +263,6 @@ li {
         margin-left: 16.7rem;
     }
 
-    /* .main {
-        height: 100vh;
-        border-radius: 0;
-        background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
-    } */
-
 
     .navbar {
         width: 100%;
@@ -318,7 +312,8 @@ li {
         line-height: 8.6rem;
         font-size: 6.4rem;
         margin-left: 16.2rem;
-        margin-top: 17.5rem;
+        margin-top: 27.1rem;
+
     }
 
     .main_component {
@@ -341,6 +336,11 @@ li {
         height: 38rem;
     }
 
+
+    .images {
+        margin-top: 17.7rem;
+    }
+
     .selector {
         width: 4rem;
         height: 20rem;
@@ -348,7 +348,7 @@ li {
 
     .watches_bottom {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         gap: 2.7rem;
         margin-top: 9.4rem;
 
